@@ -1,5 +1,5 @@
 # face-mask-detection
-Face Mask Detection is a project to determine wether someone have weared mask or not, using deep nerual network.
+Face Mask Detection is a project to determine whether someone is wearing mask or not, using deep neural network.
 It contains 3 scripts that provides training new model, testing model with specific images and live face mask detection.  
 The gif below shows how live face mask detection works.
 <p align="center">
