@@ -1,8 +1,9 @@
 # face-mask-detection
+
 Face Mask Detection contains 3 scripts that provides training new model, testing model with specific images and live face mask detection.  
 The gif below shows how live face mask detection works.
 <p align="center">
-  <img alt="Result gif" align="center" src="https://user-images.githubusercontent.com/33146532/132512879-5bc375ba-2249-4b0d-af28-7cdd3db9d3b3.gif"/>
+  <img alt="Result gif" align="center" src="https://user-images.githubusercontent.com/33146532/132523023-f9630513-613f-4ab2-a646-b19251635f9b.gif"/>
 </p>
 This model have trained with 10k face images (5k without mask and 5k with mask - dataset sources are mentioned in dataset section) using 3 layers of 2d CNN as main process(complete summary of model layers is given below).  
 
