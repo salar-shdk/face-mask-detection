@@ -5,7 +5,7 @@ The gif below shows how live face mask detection works.
 <p align="center">
   <img alt="Result gif" align="center" src="https://user-images.githubusercontent.com/33146532/132523023-f9630513-613f-4ab2-a646-b19251635f9b.gif"/>
 </p>
-This model have trained with 10k face images (5k without mask and 5k with mask - dataset sources are mentioned in dataset section) using 3 layers of 2d CNN as main process(complete summary of model layers is given below).  
+This model has trained with 10k face images (5k without mask and 5k with mask - dataset sources are mentioned in dataset section) using 3 layers of 2d CNN as main process. (the complete summary of model layers is given below)  
 
 
 ```
@@ -39,10 +39,10 @@ Non-trainable params: 0
 _________________________________________________________________ 
 
 ```
-This model have reached fantastic result of 0.9990 accuracy with test dataset( 20% ). moreover, it only takes 10 epochs to reach this result. As the graph below illustrates, from the very first epoch, accuracy is more than 0.98 and by 10th epoch, loss roughly touchs 10e-7 that is a great result.
+This model has reached fantastic result of 0.9990 accuracy with test dataset( 20% ). moreover, it only takes 10 epochs to reach this result. As the graph below illustrates, from the very first epoch, accuracy is more than 0.98 and by 10th epoch, loss roughly touchs 10e-7 that is a great result.
 
 ![loss_acc](https://user-images.githubusercontent.com/33146532/132517900-4be85157-4876-4fb6-8294-c3cd83a8a93e.png)
 
 # dataset
-The dataset we have used, is the combination of [Flickr-Faces-HQ (FFHQ) dataset](https://github.com/NVlabs/ffhq-dataset) and [MaskedFace-Net dataset](https://github.com/cabani/MaskedFace-Net). 5k images from each dataset. (sumataion of all datasets is more than 180k images)
+The dataset we have used, is the combination of [Flickr-Faces-HQ (FFHQ) dataset](https://github.com/NVlabs/ffhq-dataset) and [MaskedFace-Net dataset](https://github.com/cabani/MaskedFace-Net). 5k images from each dataset. (summation of both datasets is more than 180k images)
 
