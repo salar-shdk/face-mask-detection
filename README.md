@@ -1,6 +1,6 @@
 # face-mask-detection
-
-Face Mask Detection contains 3 scripts that provides training new model, testing model with specific images and live face mask detection.  
+Face Mask Detection is a project to determine wether someone have weared mask or not, using deep nerual network.
+It contains 3 scripts that provides training new model, testing model with specific images and live face mask detection.  
 The gif below shows how live face mask detection works.
 <p align="center">
   <img alt="Result gif" align="center" src="https://user-images.githubusercontent.com/33146532/132523023-f9630513-613f-4ab2-a646-b19251635f9b.gif"/>
@@ -39,7 +39,7 @@ Non-trainable params: 0
 _________________________________________________________________ 
 
 ```
-This model have reached fantastic result of 0.9990 accuracy with 20% of dataset. moreover, only 10 epochs is needed to reach this result. as the graph below illustrates, from the very first epoch, accuracy is more than 0.98 and by 10th epoch, loss roughly touchs 10e-7 that is a great result.
+This model have reached fantastic result of 0.9990 accuracy with test dataset( 20% ). moreover, it only takes 10 epochs to reach this result. As the graph below illustrates, from the very first epoch, accuracy is more than 0.98 and by 10th epoch, loss roughly touchs 10e-7 that is a great result.
 
 ![loss_acc](https://user-images.githubusercontent.com/33146532/132517900-4be85157-4876-4fb6-8294-c3cd83a8a93e.png)
 
