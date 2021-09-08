@@ -72,6 +72,9 @@ while True:
 
     # Display
     cv2.imshow('img', frame)
+    k = cv2.waitKey(30) & 0xff
+    if k==27:
+        break
 
 # Release the VideoCapture object
 cap.release()
