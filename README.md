@@ -43,6 +43,20 @@ This model has reached fantastic result of 0.9990 accuracy with test dataset( 20
 
 ![loss_acc](https://user-images.githubusercontent.com/33146532/132517900-4be85157-4876-4fb6-8294-c3cd83a8a93e.png)
 
+# usage
+Currently, there is not any argument parser available, so if you want change any default variable, you can change variables in configurations section at the begining of each script. schema is given below.
+```
+DATASET_PATH = "./dataset/" # to provide dataset, create a directory containing all classes as a directory and put images to relevant class. ex:
+# dataset --> no_mask --> img1, img2, ...
+#             correct_mask --> img1, img2, ...
+OUTPUT_MODEL_PATH = 'saved_model/my_model' # output file to save model
+OUTPUT_WEIGHTS_PATH = 'saved_weight/my_checkpoint2' # output file to save model's weights
+EPOCHS = 10 # number of epochs
+BATCH_SIZE = 32 # bach size
+IMG_HEIGHT = 180 # image height
+IMG_WIDTH = 180 # image width
+```
+
 # dataset
 The dataset we have used, is the combination of [Flickr-Faces-HQ (FFHQ) dataset](https://github.com/NVlabs/ffhq-dataset) and [MaskedFace-Net dataset](https://github.com/cabani/MaskedFace-Net). 5k images from each dataset. (summation of both datasets is more than 180k images)
 
