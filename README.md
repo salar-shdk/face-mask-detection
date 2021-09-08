@@ -45,7 +45,7 @@ This model has reached fantastic result of 0.9990 accuracy with test dataset( 20
 
 # usage
 Currently, there is not any argument parser available, so if you want change any default variable, you can change variables in configurations section at the begining of each script. schema is given below.
-```
+```python
 DATASET_PATH = "./dataset/" # to provide dataset, create a directory containing all classes as a directory
 # and put images to relevant class. ex:
 # dataset --> no_mask --> img1, img2, ...
