@@ -46,7 +46,8 @@ This model has reached fantastic result of 0.9990 accuracy with test dataset( 20
 # usage
 Currently, there is not any argument parser available, so if you want change any default variable, you can change variables in configurations section at the begining of each script. schema is given below.
 ```
-DATASET_PATH = "./dataset/" # to provide dataset, create a directory containing all classes as a directory and put images to relevant class. ex:
+DATASET_PATH = "./dataset/" # to provide dataset, create a directory containing all classes as a directory
+# and put images to relevant class. ex:
 # dataset --> no_mask --> img1, img2, ...
 #             correct_mask --> img1, img2, ...
 OUTPUT_MODEL_PATH = 'saved_model/my_model' # output file to save model
@@ -55,6 +56,18 @@ EPOCHS = 10 # number of epochs
 BATCH_SIZE = 32 # bach size
 IMG_HEIGHT = 180 # image height
 IMG_WIDTH = 180 # image width
+```
+To train a new model, after changing  the configuration above, just run: 
+```
+python train_model.py
+```
+To test the trained model with some specific images, run:
+```
+python test_model.py img1.jpg img2.jpg ....
+```
+At last, to run live detection mode, run:
+```
+python live_detection.py
 ```
 
 # dataset
